@@ -37,8 +37,8 @@ public:
 };
 
 int main(){
-    Vehicle* v1=new Car("Civic",5000000);
-    Vehicle* v2=new Bike("Suzuki",150000);
+    Vehicle* v1=new Car("Civic",5000);
+    Vehicle* v2=new Bike("Suzuki",1500);
 
     v1->displayDetails();
     cout<<"Daily Rate: "<<v1->getDailyRate()<<endl;
